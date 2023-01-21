@@ -1,19 +1,21 @@
 {
-  "name": "friday-challenge",
+  "name": "friday-challengegeras",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "dead-server --host=localhost --port=3004",
+    "dev":"dead-server --host=localhost --port=3006",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "html",
-    "css"
-  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inga911/friday-challenge.git"
+  },
+  "keywords": [],
   "author": "Inga (https://github.com/inga911)",
   "license": "ISC",
-  "devDependencies": {
-    "dead-server": "^1.0.9"
-  }
+  "bugs": {
+    "url": "https://github.com/inga911/friday-challenge/issues"
+  },
+  "homepage": "https://github.com/inga911/friday-challenge#readme"
 }

@@ -1,0 +1,13 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #EBEEF5; 
+    font-family: 'Montserrat';
+}

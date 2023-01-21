@@ -1,0 +1,105 @@
+@import './root.css';
+
+header{
+    position: absolute;
+    width: 100px;
+    height: 100vh;
+    left: 0px;
+    background: #F7F6FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+header:hover{
+    transition: 1s;
+    width: 206px;
+}
+
+
+.logo {
+    width: 68px;
+    height: 34px;
+    position: relative;
+    top: 52px;
+    left: calc(50% - 35px);
+    margin-bottom: 10px;
+}
+
+.line {
+    position: relative;
+    margin: 0 15px;
+    top: 60px;
+    border-bottom: 2px solid #c4c4c4;
+  }
+ 
+.nav-icon{
+    position: absolute;
+    top: 17.44%;
+    left: 10%;
+}
+
+a {
+    display: grid;
+    text-decoration: none;
+    color: #C4C4C4;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 20px;
+}
+
+.nav-img {
+    margin-top: 1.5em;
+}
+.nav-img > .imgleft {
+    margin-left: 10px;
+}
+.nav-icon > .home > a {
+    color: #02577A;
+}
+
+.nav-img > a:hover {
+    text-decoration: underline #02577A;
+    color:#02577A;
+} 
+
+.nav-img {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-img > .home, a{
+    display: none;
+}
+
+
+header:hover .nav-img > .home {
+    display: flex;
+    flex-direction: row;
+}
+
+header:hover .nav-img > a {
+    display: flex;
+    flex-direction: row;
+}
+
+
+footer > div{
+    color: #02577A;
+    justify-content: center;
+    position: absolute;
+    bottom: 0.5em;
+    left: calc(50% - 100px);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+}
+
+footer > .footline {
+    position: absolute;
+    width:30%;
+    left: calc(50% - 260px);
+    bottom: 2em;
+    border-bottom: 1px solid #02577A;
+}
